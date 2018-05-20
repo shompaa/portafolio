@@ -1,0 +1,20 @@
+<!--   *** SIDEBAR ***-->
+<div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"> <a href="index.html">{{ _is.info.titulo }}</a></h1>
+    <p class="sidebar-p">{{ _is.info.descripcion }} </p>
+    <p class="sidebar-p">{{ _is.info.descripcion2 }} </p>
+
+    <p>
+      <a [href]="_is.info.git" target="_blank"><i class="fab fa-github text-dark fa-2x"></i></a>
+      <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a [href]="_is.info.linkedin" target="_blank"><i class="fab fa-linkedin text-primary fa-2x"></i></a>
+      <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="mailTo:{{ _is.info.email }}"><i class="fas fa-envelope fa-2x"></i></a>
+    </p>
+    <div class="copyright">
+      <p class="credit">&copy;{{ anio }} {{ _is.info.titulo }} | Template by <a [href]="_is.info.pagina_autor" class="external">{{ _is.info.autor }}</a></p>
+    </div>
+  </div>
+</div>
+<!--   *** SIDEBAR END ***  -->
