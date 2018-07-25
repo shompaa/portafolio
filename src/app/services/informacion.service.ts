@@ -6,7 +6,7 @@ import { Http } from '@angular/http';
 })
 export class InformacionService {
 
-  info:any = {};
+ info:any = {};
  cargada:boolean = false;
  cargadaPaginas:boolean = false;
  paginas:any[] = [];
